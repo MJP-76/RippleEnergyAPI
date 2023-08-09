@@ -1,9 +1,9 @@
 {
     "domain": "ripple_energy",
-    "name": "Ripple Energy Integration",
+    "name": "Ripple Energy API",
     "version": "0.0.1",
-    "documentation": "https://github.com/MJP-76/RippleEnergy",
-    "issue_tracker": "https://github.com/MJP-76/RippleEnergy/issues",
+    "documentation": "https://github.com/MJP-76/RippleEnergyAPI",
+    "issue_tracker": "https://github.com/MJP-76/RippleEnergyAPI/issues",
     "requirements": [],
     "dependencies": [],
     "codeowners": ["@mjp-76"],
