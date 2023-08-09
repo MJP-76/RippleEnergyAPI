@@ -29,22 +29,16 @@ You will require your Ripple Energy members API key as per available here: [Ripp
 # Post Installation
 After restart of Home Assistant, integration can be configured through the integration setup UI
 
-# Generated - Sensors
+# Sensors
 The following - Sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
 
-<B>Sensors created<B>
-WIP
+<B>Working<B>
+- WIP
 
+<B>Work in progress<B>
+<B><B>
+- API response:
 
-
-
-
-
-
-
-<B>Sensors not created yet<B>
-
-API response:
 {"email": "YOUR_MEMBER_LOGIN_EMAIL", "copyright_notice": "Not to publish or distribute. Only for personal use.", "generation_assets": [
 
 {"name": "Project 4", "type": "Windfarm", "status": "N/A", "total_capacity": 42.0, "total_capacity_units": "MW", "member_capacity": 0.0, "member_capacity_units": "W", "member_expected_annual_generation": 0.0, "member_expected_annual_generation_units": "MWh", "generation": {"generation_unit": "kWh", "latest_telemetry": {}, "latest": {}, "today": {"from": "2023-08-09T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "yesterday": {"from": "2023-08-08T00:00:00Z", "to": "2023-08-09T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_week": {"from": "2023-08-07T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_week": {"from": "2023-07-31T00:00:00Z", "to": "2023-08-07T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_month": {"from": "2023-08-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_month": {"from": "2023-07-01T00:00:00Z", "to": "2023-08-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_year": {"from": "2023-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_year": {"from": "2022-01-01T00:00:00Z", "to": "2023-01-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "total": {"from": "2000-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}}, "forecast": []}, 
