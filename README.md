@@ -1,11 +1,9 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 
-[Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
+Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
 
 Ripple Energy API integration for Home Assistant
 - Based on the yaml works by ScriptEngine from https://github.com/scriptengine/rippleEnergyHAyaml
-
-
 
 Updated: 9th August, 2023
 
@@ -25,9 +23,6 @@ After reboot of Home-Assistant, this integration can be configured through the i
 
 # Generated Sensors
 The following sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
-
-ripple_email
-ripple_copyright
 
 ripple_asset0_name
 ripple_asset0_status
