@@ -1,4 +1,4 @@
-# <B>PRipple Energy API integration for Home Assistant<B>
+# <B>Ripple Energy API integration for Home Assistant<B>
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 
