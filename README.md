@@ -1,9 +1,9 @@
+<B>PRipple Energy API integration for Home Assistant<B>P
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 
 Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
 
-Ripple Energy API integration for Home Assistant
-- Based on the yaml works by ScriptEngine from https://github.com/scriptengine/rippleEnergyHAyaml
 
 Updated: 9th August, 2023
 
