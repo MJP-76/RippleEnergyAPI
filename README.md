@@ -1,16 +1,15 @@
-<B>PRipple Energy API integration for Home Assistant<B>P
+# <B>PRipple Energy API integration for Home Assistant<B>
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 
 Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
 
-
-Updated: 9th August, 2023
-
 # Work in progress
 - HACS Integration
 - Home Assistant UI WorkFlow
 - json to sensors via HACS/HA UI integration
+
+Updated: 9th August, 2023
 
 # Pre Installation
 You will require your Ripple Energy members API key as per available here: [Ripple Energy API Key](https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ)
