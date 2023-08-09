@@ -19,13 +19,9 @@ You will require your Ripple Energy members API key as per available here:
 https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ
 
 # Installation
+Add https://github.com/MJP-76/RippleEnergyAPI as a custom repository to HACS and reboot Home Assistant
 
-<B>Preferred Option</B>
-
-Add directly through HACS, if you have HACS installed on your Home Assistant instance, ads a custom repository https://github.com/MJP-76/RippleEnergyAPI
-
-<B>Post Installation</B>
-
+# Post Installation
 After reboot of Home-Assistant, this integration can be configured through the integration setup UI
 
 # Generated Sensors
