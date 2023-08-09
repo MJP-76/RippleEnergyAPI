@@ -1,0 +1,13 @@
+{
+    "domain": "ripple_energy",
+    "name": "Ripple Energy Integration",
+    "version": "0.0.1",
+    "documentation": "https://github.com/MJP-76/RippleEnergy",
+    "issue_tracker": "https://github.com/MJP-76/RippleEnergy/issues",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@mjp-76"],
+    "config_flow": true,
+    "iot_class": "local_polling"
+  }
+  

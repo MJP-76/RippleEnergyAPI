@@ -1,0 +1,106 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
+
+[Octopus.Energy 🐙](https://share.octopus.energy/wise-boar-813) referral code. You get £50 credit for joining and I get £50 credit.
+
+Ripple Energy API integration to Home Assistant
+- Forked from https://github.com/scriptengine/rippleEnergyHAyaml
+
+You will need you Ripple Energu API key as per here:
+https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ
+
+# Installation
+
+<B>Preferred Option</B>
+
+~~You can add this custom_component directly through HACS, if you have HACS installed on your Home Assistant instance.~~
+
+<B>Post Installation</B>
+
+After reboot of Home-Assistant, this integration can be configured through the integration setup UI
+
+# rippleEnergyHAyaml
+Yaml for HA to surface Ripple Energy's member API
+
+Updated: 27th July, 2023
+This is some prototype YAML to access the Ripple Energy (https://rippleenergy.com/ ) API from Home Assistant
+
+The member's API Key needs to be added to the REST URL
+The API key is documented (for members) at:
+https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ
+
+Creates the following sensors in HA:
+
+ripple_email
+ripple_copyright
+
+ripple_asset0_name
+ripple_asset0_status
+ripple_asset0_type
+
+ripple_asset0_total_capacity_units
+ripple_asset0_total_capacity
+ripple_asset0_member_expected_annual_generation
+ripple_asset0_member_expected_annual_generation_units
+ripple_asset0_member_capacity
+ripple_asset0_member_capacity_units
+
+ripple_asset0_forecast
+ripple_asset0_generation_latest_telemetry
+ripple_asset0_generation_latest
+
+ripple_asset0_generation_generation_unit
+
+ripple_asset0_generation_total_to
+ripple_asset0_generation_total_generated
+ripple_asset0_generation_total_from
+ripple_asset0_generation_total_estimate
+ripple_asset0_generation_total_earned
+
+ripple_asset0_generation_today_to
+ripple_asset0_generation_today_generated
+ripple_asset0_generation_today_from
+ripple_asset0_generation_today_estimate
+ripple_asset0_generation_today_earned
+
+ripple_asset0_generation_yesterday_to
+ripple_asset0_generation_yesterday_generated
+ripple_asset0_generation_yesterday_from
+ripple_asset0_generation_yesterday_estimate
+ripple_asset0_generation_yesterday_earned
+
+ripple_asset0_generation_this_week_to
+ripple_asset0_generation_this_week_generated
+ripple_asset0_generation_this_week_from
+ripple_asset0_generation_this_week_earned
+ripple_asset0_generation_thisweek_estimate
+
+ripple_asset0_generation_last_week_to
+ripple_asset0_generation_last_week_generated
+ripple_asset0_generation_last_week_from
+ripple_asset0_generation_last_week_earned
+ripple_asset0_generation_lastweek_estimate
+
+ripple_asset0_generation_this_month_to
+ripple_asset0_generation_this_month_generated
+ripple_asset0_generation_this_month_from
+ripple_asset0_generation_this_month_earned
+ripple_asset0_generation_thismonth_estimate
+
+ripple_asset0_generation_last_month_to
+ripple_asset0_generation_last_month_generated
+ripple_asset0_generation_last_month_from
+ripple_asset0_generation_last_month_earned
+ripple_asset0_generation_lastmonth_estimate
+
+ripple_asset0_generation_this_year_to
+ripple_asset0_generation_this_year_generated
+ripple_asset0_generation_this_year_from
+ripple_asset0_generation_this_year_earned
+ripple_asset0_generation_thisyear_estimate
+
+ripple_asset0_generation_last_year_to
+ripple_asset0_generation_last_year_generated
+ripple_asset0_generation_last_year_from
+ripple_asset0_generation_last_year_earned
+ripple_asset0_generation_lastyear_estimate
+
