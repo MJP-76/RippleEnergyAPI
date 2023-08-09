@@ -15,8 +15,7 @@ Updated: 9th August, 2023
 - json to sensors via HACS/HA UI integration
 
 # Pre Installation
-You will require your Ripple Energy members API key as per available here:
-https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ
+You will require your Ripple Energy members API key as per available here: [Ripple Energy API Key](https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/)ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ
 
 # Installation
 Add https://github.com/MJP-76/RippleEnergyAPI as a custom repository to HACS and reboot Home Assistant
