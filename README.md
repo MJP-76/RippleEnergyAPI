@@ -16,12 +16,12 @@ You will require your Ripple Energy members API key as per available here: [Ripp
 
 # Installation
 <B>HACS<B>
-1. Add the [repository}(https://github.com/MJP-76/RippleEnergyAPI) as "Custom repository" in "Integrations" menu in HACS (Home Assistant Community Store)
+1. Add the [repository](https://github.com/MJP-76/RippleEnergyAPI) as "Custom repository" in "Integrations" menu in HACS (Home Assistant Community Store)
 2. Install the integration into HACS
 3. Restart Home Assistant
 
 <B>Manual<B>
-1. Download the [integration}(https://github.com/MJP-76/RippleEnergyAPI)
+1. Download the [integration](https://github.com/MJP-76/RippleEnergyAPI)
 2. Copy the folder custom_components/ripple_energy_api from the zip to your config directory
 3. Restart Home Assistant
 
