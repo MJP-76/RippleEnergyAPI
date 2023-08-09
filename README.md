@@ -7,7 +7,7 @@ Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referr
 # Work in progress
 - HACS Integration
 - Home Assistant UI WorkFlow
-- json to sensors via HACS/HA UI integration
+- json to Type: Sensors via HACS/HA UI integration
 
 Updated: 9th August, 2023
 
@@ -16,89 +16,150 @@ You will require your Ripple Energy members API key as per available here: [Ripp
 
 # Installation
 <B>HACS<B>
-1. Add the [repository](https://github.com/MJP-76/RippleEnergyAPI) as "Custom repository" in "Integrations" menu in HACS (Home Assistant Community Store)
-2. Install the integration into HACS
+1. Add the https://github.com/MJP-76/RippleEnergyAPI as a "Custom Repository" in HACS (Home Assistant Community Store)
+2. Install the integration in HACS
 3. Restart Home Assistant
 
 <B>Manual<B>
-1. Download the [integration](https://github.com/MJP-76/RippleEnergyAPI)
-2. Copy the folder custom_components/ripple_energy_api from the zip to your config directory
+1. Download the https://github.com/MJP-76/RippleEnergyAPI
+2. Copy the folder custom_components/Name: ripple_energy_api from the zip to your config directory
 3. Restart Home Assistant
 
 # Post Installation
 After restart of Home Assistant, integration can be configured through the integration setup UI
 
-# Generated Sensors
-The following sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
+# Generated Type: Sensors
+The following Type: Sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
 
-ripple_asset0_name
-ripple_asset0_status
-ripple_asset0_type
+<B>Type: Sensors created<B>
 
-ripple_asset0_total_capacity_units
-ripple_asset0_total_capacity
-ripple_asset0_member_expected_annual_generation
-ripple_asset0_member_expected_annual_generation_units
-ripple_asset0_member_capacity
-ripple_asset0_member_capacity_units
 
-ripple_asset0_forecast
-ripple_asset0_generation_latest_telemetry
-ripple_asset0_generation_latest
+<B>Type: Sensors not created yet<B>
 
-ripple_asset0_generation_generation_unit
-
-ripple_asset0_generation_total_to
-ripple_asset0_generation_total_generated
-ripple_asset0_generation_total_from
-ripple_asset0_generation_total_estimate
-ripple_asset0_generation_total_earned
-
-ripple_asset0_generation_today_to
-ripple_asset0_generation_today_generated
-ripple_asset0_generation_today_from
-ripple_asset0_generation_today_estimate
-ripple_asset0_generation_today_earned
-
-ripple_asset0_generation_yesterday_to
-ripple_asset0_generation_yesterday_generated
-ripple_asset0_generation_yesterday_from
-ripple_asset0_generation_yesterday_estimate
-ripple_asset0_generation_yesterday_earned
-
-ripple_asset0_generation_this_week_to
-ripple_asset0_generation_this_week_generated
-ripple_asset0_generation_this_week_from
-ripple_asset0_generation_this_week_earned
-ripple_asset0_generation_thisweek_estimate
-
-ripple_asset0_generation_last_week_to
-ripple_asset0_generation_last_week_generated
-ripple_asset0_generation_last_week_from
-ripple_asset0_generation_last_week_earned
-ripple_asset0_generation_lastweek_estimate
-
-ripple_asset0_generation_this_month_to
-ripple_asset0_generation_this_month_generated
-ripple_asset0_generation_this_month_from
-ripple_asset0_generation_this_month_earned
-ripple_asset0_generation_thismonth_estimate
-
-ripple_asset0_generation_last_month_to
-ripple_asset0_generation_last_month_generated
-ripple_asset0_generation_last_month_from
-ripple_asset0_generation_last_month_earned
-ripple_asset0_generation_lastmonth_estimate
-
-ripple_asset0_generation_this_year_to
-ripple_asset0_generation_this_year_generated
-ripple_asset0_generation_this_year_from
-ripple_asset0_generation_this_year_earned
-ripple_asset0_generation_thisyear_estimate
-
-ripple_asset0_generation_last_year_to
-ripple_asset0_generation_last_year_generated
-ripple_asset0_generation_last_year_from
-ripple_asset0_generation_last_year_earned
-ripple_asset0_generation_lastyear_estimate
-
+Name: ripple_asset0_generation_this_week_from
+Entity: sensor.ripple_asset0_generation_this_week_from
+Type: Sensor
+—
+Name: ripple_asset0_generation_this_week_generated
+Entity: sensor.ripple_asset0_generation_this_week_generated
+Type: Sensor
+—
+Name: ripple_asset0_generation_this_week_to
+Entity: sensor.ripple_asset0_generation_this_week_to
+Type: Sensor
+—
+Name: ripple_asset0_generation_this_year_earned
+Entity: sensor.ripple_asset0_generation_this_year_earned
+Type: Sensor
+—
+Name: ripple_asset0_generation_this_year_from
+Entity: sensor.ripple_asset0_generation_this_year_from
+Type: Sensor
+—
+Name: ripple_asset0_generation_this_year_generated
+Entity: sensor.ripple_asset0_generation_this_year_generated
+Type: Sensor
+—
+Name: ripple_asset0_generation_this_year_to
+Entity: sensor.ripple_asset0_generation_this_year_to
+Type: Sensor
+—
+Name: ripple_asset0_generation_today_earned
+Entity: sensor.ripple_asset0_generation_today_earned
+Type: Sensor
+—
+Name: ripple_asset0_generation_today_estimate
+binary_Entity: sensor.ripple_asset0_generation_today_estimate
+Type: Binary Type: Sensor
+—
+Name: ripple_asset0_generation_today_from
+Entity: sensor.ripple_asset0_generation_today_from
+Type: Sensor
+—
+Name: ripple_asset0_generation_today_generated
+Entity: sensor.ripple_asset0_generation_today_generated
+Type: Sensor
+—
+Name: ripple_asset0_generation_today_to
+Entity: Entity: sensor.ripple_asset0_generation_today_to
+Type: Sensor
+—
+Name: ripple_asset0_generation_total_earned
+Entity: sensor.ripple_asset0_generation_total_earned
+Type: Sensor
+—
+Name: ripple_asset0_generation_total_estimate
+binary_Entity: sensor.ripple_asset0_generation_total_estimate
+Type: Binary Type: Sensor
+—
+Name: ripple_asset0_generation_total_from
+Entity: sensor.ripple_asset0_generation_total_from
+Type: Sensor
+—
+Name: ripple_asset0_generation_total_generated
+Entity: sensor.ripple_asset0_generation_total_generated
+Type: Sensor
+—
+Name: ripple_asset0_generation_total_to
+Entity: sensor.ripple_asset0_generation_total_to
+Type: Sensor
+—
+Name: ripple_asset0_generation_yesterday_earned
+Entity: sensor.ripple_asset0_generation_yesterday_earned
+Type: Sensor
+—
+Name: ripple_asset0_generation_yesterday_estimate
+binary_Entity: sensor.ripple_asset0_generation_yesterday_estimate
+Binary Type: Sensor
+—
+Name: ripple_asset0_generation_yesterday_from
+Entity: sensor.ripple_asset0_generation_yesterday_from
+Type: Sensor
+—
+Name: ripple_asset0_generation_yesterday_generated
+Entity: sensor.ripple_asset0_generation_yesterday_generated
+Type: Sensor
+—
+Name: ripple_asset0_generation_yesterday_to
+Entity: sensor.ripple_asset0_generation_yesterday_to
+Type: Sensor
+—
+Name: ripple_asset0_member_capacity
+Entity: sensor.ripple_asset0_member_capacity
+Type: Sensor
+—
+Name: ripple_asset0_member_capacity_units
+Entity: sensor.ripple_asset0_member_capacity_units
+Type: Sensor
+—
+Name: ripple_asset0_member_expected_annual_generation
+Entity: sensor.ripple_asset0_member_expected_annual_generation
+Type: Sensor
+—
+Name: ripple_asset0_member_expected_annual_generation_units
+Entity: sensor.ripple_asset0_member_expected_annual_generation_units
+Type: Sensor
+—
+Name: ripple_asset0_name
+Entity: sensor.ripple_asset0_name
+Type: Sensor
+—
+Name: ripple_asset0_status
+Entity: sensor.ripple_asset0_status
+Type: Sensor
+—
+Name: ripple_asset0_total_capacity
+Entity: sensor.ripple_asset0_total_capacity
+Type: Sensor
+—
+Name: ripple_asset0_total_capacity_units
+Entity: sensor.ripple_asset0_total_capacity_units
+Type: Sensor
+—
+Name: ripple_asset0_type
+Entity: sensor.ripple_asset0_type
+Type: Sensor
+—
+Name: ripple_email
+Entity: sensor.ripple_email
+Type: Sensor
