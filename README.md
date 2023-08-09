@@ -5,7 +5,7 @@
 Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
 
 # Work in progress
-- ~~~HACS Integration~~~
+- HACS Integration
 - Home Assistant UI WorkFlow
 - Add API Key via UI workflow
 - Create sensors via HA UI integration
@@ -37,130 +37,11 @@ The following - Sensors are generated from the Ripple Energy (https://rippleener
 
 <B>Sensors not created yet<B>
 
-- Name: ripple_asset0_generation_this_week_from
-- Entity: sensor.ripple_asset0_generation_this_week_from
-- Type: Sensor
+API response:
+{"email": "YOUR_MEMBER_LOGIN_EMAIL", "copyright_notice": "Not to publish or distribute. Only for personal use.", "generation_assets": [
 
-- Name: ripple_asset0_generation_this_week_generated
-- Entity: sensor.ripple_asset0_generation_this_week_generated
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_this_week_to
-- Entity: sensor.ripple_asset0_generation_this_week_to
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_this_year_earned
-- Entity: sensor.ripple_asset0_generation_this_year_earned
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_this_year_from
-- Entity: sensor.ripple_asset0_generation_this_year_from
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_this_year_generated
-- Entity: sensor.ripple_asset0_generation_this_year_generated
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_this_year_to
-- Entity: sensor.ripple_asset0_generation_this_year_to
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_today_earned
-- Entity: sensor.ripple_asset0_generation_today_earned
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_today_estimate
-binary_- Entity: sensor.ripple_asset0_generation_today_estimate
-- Type: Binary - Type: Sensor
-—
-- Name: ripple_asset0_generation_today_from
-- Entity: sensor.ripple_asset0_generation_today_from
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_today_generated
-- Entity: sensor.ripple_asset0_generation_today_generated
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_today_to
-- Entity: - Entity: sensor.ripple_asset0_generation_today_to
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_total_earned
-- Entity: sensor.ripple_asset0_generation_total_earned
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_total_estimate
-binary_- Entity: sensor.ripple_asset0_generation_total_estimate
-- Type: Binary - Type: Sensor
-—
-- Name: ripple_asset0_generation_total_from
-- Entity: sensor.ripple_asset0_generation_total_from
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_total_generated
-- Entity: sensor.ripple_asset0_generation_total_generated
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_total_to
-- Entity: sensor.ripple_asset0_generation_total_to
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_yesterday_earned
-- Entity: sensor.ripple_asset0_generation_yesterday_earned
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_yesterday_estimate
-binary_- Entity: sensor.ripple_asset0_generation_yesterday_estimate
-Binary - Type: Sensor
-—
-- Name: ripple_asset0_generation_yesterday_from
-- Entity: sensor.ripple_asset0_generation_yesterday_from
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_yesterday_generated
-- Entity: sensor.ripple_asset0_generation_yesterday_generated
-- Type: Sensor
-—
-- Name: ripple_asset0_generation_yesterday_to
-- Entity: sensor.ripple_asset0_generation_yesterday_to
-- Type: Sensor
-—
-- Name: ripple_asset0_member_capacity
-- Entity: sensor.ripple_asset0_member_capacity
-- Type: Sensor
-—
-- Name: ripple_asset0_member_capacity_units
-- Entity: sensor.ripple_asset0_member_capacity_units
-- Type: Sensor
-—
-- Name: ripple_asset0_member_expected_annual_generation
-- Entity: sensor.ripple_asset0_member_expected_annual_generation
-- Type: Sensor
-—
-- Name: ripple_asset0_member_expected_annual_generation_units
-- Entity: sensor.ripple_asset0_member_expected_annual_generation_units
-- Type: Sensor
-—
-- Name: ripple_asset0_name
-- Entity: sensor.ripple_asset0_name
-- Type: Sensor
-—
-- Name: ripple_asset0_status
-- Entity: sensor.ripple_asset0_status
-- Type: Sensor
-—
-- Name: ripple_asset0_total_capacity
-- Entity: sensor.ripple_asset0_total_capacity
-- Type: Sensor
-—
-- Name: ripple_asset0_total_capacity_units
-- Entity: sensor.ripple_asset0_total_capacity_units
-- Type: Sensor
-—
-- Name: ripple_asset0_type
-- Entity: sensor.ripple_asset0_type
-- Type: Sensor
-—
-- Name: ripple_email
-- Entity: sensor.ripple_email
-- Type: Sensor
+{"name": "Project 4", "type": "Windfarm", "status": "N/A", "total_capacity": 42.0, "total_capacity_units": "MW", "member_capacity": 0.0, "member_capacity_units": "W", "member_expected_annual_generation": 0.0, "member_expected_annual_generation_units": "MWh", "generation": {"generation_unit": "kWh", "latest_telemetry": {}, "latest": {}, "today": {"from": "2023-08-09T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "yesterday": {"from": "2023-08-08T00:00:00Z", "to": "2023-08-09T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_week": {"from": "2023-08-07T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_week": {"from": "2023-07-31T00:00:00Z", "to": "2023-08-07T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_month": {"from": "2023-08-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_month": {"from": "2023-07-01T00:00:00Z", "to": "2023-08-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_year": {"from": "2023-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_year": {"from": "2022-01-01T00:00:00Z", "to": "2023-01-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "total": {"from": "2000-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}}, "forecast": []}, 
+
+{"name": "Derril Water", "type": "Solarfarm", "status": "Prelimary", "total_capacity": 42.0, "total_capacity_units": "MW", "member_capacity": 8568.641, "member_capacity_units": "W", "member_expected_annual_generation": 8.4, "member_expected_annual_generation_units": "MWh", "generation": {"generation_unit": "kWh", "latest_telemetry": {}, "latest": {}, "today": {"from": "2023-08-09T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "yesterday": {"from": "2023-08-08T00:00:00Z", "to": "2023-08-09T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_week": {"from": "2023-08-07T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_week": {"from": "2023-07-31T00:00:00Z", "to": "2023-08-07T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_month": {"from": "2023-08-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_month": {"from": "2023-07-01T00:00:00Z", "to": "2023-08-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_year": {"from": "2023-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_year": {"from": "2022-01-01T00:00:00Z", "to": "2023-01-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "total": {"from": "2000-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}}, "forecast": []}, 
+
+{"name": "Kirk Hill", "type": "Windfarm", "status": "N/A", "total_capacity": 18.8, "total_capacity_units": "MW", "member_capacity": 2559.465, "member_capacity_units": "W", "member_expected_annual_generation": 8.12, "member_expected_annual_generation_units": "MWh", "generation": {"generation_unit": "kWh", "latest_telemetry": {}, "latest": {}, "today": {"from": "2023-08-09T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "yesterday": {"from": "2023-08-08T00:00:00Z", "to": "2023-08-09T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_week": {"from": "2023-08-07T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_week": {"from": "2023-07-31T00:00:00Z", "to": "2023-08-07T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_month": {"from": "2023-08-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_month": {"from": "2023-07-01T00:00:00Z", "to": "2023-08-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "this_year": {"from": "2023-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "last_year": {"from": "2022-01-01T00:00:00Z", "to": "2023-01-01T00:00:00Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}, "total": {"from": "2000-01-01T00:00:00Z", "to": "2023-08-09T08:57:03.812Z", "contains_estimate": false, "generated": 0.0, "earned": 0.0}}, "forecast":  []}]}
