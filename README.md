@@ -1,4 +1,4 @@
-# <B>Ripple Energy API integration for Home Assistant<B>
+# <B><U>Ripple Energy API integration for Home Assistant<B><U>
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 
@@ -15,12 +15,12 @@ Updated: 9th August, 2023
 You will require your Ripple Energy members API key as per available here: [Ripple Energy API Key](https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ)
 
 # Installation
-HACS
+<B><U>HACS<B><U>
 1. Add this [repository}(https://github.com/MJP-76/RippleEnergyAPI) as "Custom repository" in "Integrations" menu in HACS (Home Assistant Community Store)
 2. Install the integration in HACS
 3. Restart Home Assistant
 
-Manual
+<B><U>Manual<B><U>
 1. Download integration
 2. Copy the folder custom_components/aladin-online from the zip to your config directory
 3. Restart Home Assistant
