@@ -33,6 +33,13 @@ After restart of Home Assistant, integration can be configured through the integ
 The following - Sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
 
 <B>Sensors created<B>
+WIP
+
+
+
+
+
+
 
 
 <B>Sensors not created yet<B>
