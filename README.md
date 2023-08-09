@@ -31,14 +31,14 @@ After restart of Home Assistant, integration can be configured through the integ
 # Generated Type: Sensors
 The following Type: Sensors are generated from the Ripple Energy (https://rippleenergy.com/ ) API into Home Assistant
 
-<B>Type: Sensors created<B>
+<B>Sensors created<B>
 
 
-<B>Type: Sensors not created yet<B>
+<B>Sensors not created yet<B>
 
-Name: ripple_asset0_generation_this_week_from
-Entity: sensor.ripple_asset0_generation_this_week_from
-Type: Sensor
+<B>Name:<B> ripple_asset0_generation_this_week_from
+<B>Entity:<B> sensor.ripple_asset0_generation_this_week_from
+<B>Type:<B> Sensor
 —
 Name: ripple_asset0_generation_this_week_generated
 Entity: sensor.ripple_asset0_generation_this_week_generated
