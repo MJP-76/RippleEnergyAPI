@@ -12,7 +12,7 @@ class RippleEnergyConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         errors = {}
 
         # Validate the API key length
-        if len(user_input['api_key']) < 50:
+        if len(user_input['api_key']) < 260:
             errors['base'] = 'invalid_api_key_length'
 
         if not errors:
