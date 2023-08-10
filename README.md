@@ -5,12 +5,10 @@
 Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
 
 # Work in progress
-- HACS Integration
+- HACS Integration - Complete 10/08/2023
 - Home Assistant UI WorkFlow
 - Add API Key via UI workflow
 - Create sensors via HA UI integration
-
-Updated: 9th August, 2023
 
 # Pre Installation
 You will require your Ripple Energy members API key as per available here: [Ripple Energy API Key](https://community.rippleenergy.com/new-feature-requests-yyqtfatb/post/ripple-api-yH0cTzuQ4GJMaYV?highlight=l8VWP51eyif7JlZ)
