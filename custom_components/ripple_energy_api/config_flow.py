@@ -9,10 +9,8 @@ from .const import (
 )
 
 class RippleEnergyConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-
     async def async_step_user(self, user_input=None):
         errors = {}
-
         if user_input is None:
             return self._show_setup_form()
 
