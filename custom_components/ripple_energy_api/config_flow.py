@@ -1,12 +1,7 @@
 import voluptuous as vol
 from homeassistant import config_entries
 
-from .const import (
-    DOMAIN,
-    CONFIG_NAME,
-    CONFIG_SCAN_INTERVAL,
-    CONFIG_API_KEY,
-)
+from .const import ( DOMAIN )
 
 class RippleEnergyConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     async def async_step_user(self, user_input=None):
