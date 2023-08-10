@@ -5,7 +5,7 @@
 Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referral code. You get £50 credit for joining and I get £50 credit.
 
 # Work in progress
-- HACS Integration
+- <s>HACS Integration<s>
 - Home Assistant UI WorkFlow
 - Add API Key via UI workflow
 - Create sensors via HA UI integration
