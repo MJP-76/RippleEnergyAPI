@@ -2,7 +2,7 @@ import voluptuous as vol
 from homeassistant import config_entries
 from .const import DOMAIN
 
-class RippleEnergyConfigFlow(config_entries.ConfigFlow, domain=ripple_energy):
+class RippleEnergyConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
     async def async_step_user(self, user_input=None):
         errors = {}
