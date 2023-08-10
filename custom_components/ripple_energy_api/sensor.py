@@ -1,3 +1,12 @@
+import requests
+
+def get_data(api_key):
+    headers = {
+        "Authorization": f"Bearer {api_key}"
+    }
+    response = requests.get("https://rippleenergy.com/rest/member_data", headers=headers)
+    return response.json()
+
 from homeassistant.helpers.entity import Entity
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
