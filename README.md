@@ -6,8 +6,7 @@ Use me [Octopus.Energy 🐙](https://share.octopus.energy/iron-moose-196) referr
 
 # Work in progress
 - HACS Integration - Complete 10/08/2023
-- Home Assistant UI WorkFlow
-- Add API Key via UI workflow
+- Home Assistant UI WorkFlow - Current
 - Create sensors via HA UI integration
 
 # Pre Installation
