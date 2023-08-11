@@ -1,4 +1,5 @@
 {
-    "name": "Ripple Energy Integration",
-    "render_readme": true
+    "name": "Ripple Energy API",
+    "render_readme": true,
+    "country": ["GB"]
 }
