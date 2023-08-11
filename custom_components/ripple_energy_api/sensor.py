@@ -12,11 +12,11 @@ if response.status_code == 200:
     data = response.json()
     
     # Extract relevant information from the JSON response
-    energy_production = data.get("energy_production", 0)  # Replace with actual key
+    energy_production = data.get("generation_assets[1].generation.today.generated")  # Replace with actual key
     
     # Assuming you want to create a sensor for energy production
     sensor_config = {
-        "name": "Ripple Energy Production",
+        "name": "Kirk Hill Generation Today",
         "state_class": "measurement",
         "unit_of_measurement": "kWh",
         "state": energy_production
@@ -26,7 +26,7 @@ if response.status_code == 200:
     sensor_json = json.dumps(sensor_config)
     
     # URL of Home Assistant API endpoint to create/update sensors
-    ha_api_url = "http://YOUR_HA_IP:8123/api/states/sensor.ripple_energy_production"  # Replace with your Home Assistant IP
+    ha_api_url = "https://172.16.1.2/api/states/sensor.ripple_energy_generation_today"  # Replace with your Home Assistant IP
     
     # Headers for the Home Assistant API request
     headers = {
