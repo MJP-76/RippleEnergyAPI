@@ -1,7 +1,4 @@
 {
-    "name": "Ripple Energy API",
-    "render_readme": true,
-    "domains": [
-        "sensor"
-    ]
+    "name": "Ripple Energy Integration",
+    "render_readme": true
 }
