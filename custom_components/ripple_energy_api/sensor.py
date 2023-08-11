@@ -2,6 +2,9 @@ import requests
 import config_flow
 import json
 
+from homeassistant.helpers.entity import Entity
+from homeassistant.components.sensor import SensorEntityDescription
+
 def get_data(api_key):
     headers = {
         "Authorization": f"Bearer {api_key}"
@@ -9,7 +12,6 @@ def get_data(api_key):
     response = requests.get("https://rippleenergy.com/rest/member_data/", headers=headers)
     return response.json()
 
-from homeassistant.helpers.entity import Entity
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
     api_key = config.get("api_key")
@@ -21,22 +23,18 @@ async def async_setup_platform(hass, config, async_add_entities, discovery_info=
     
     async_add_entities(sensors, True)
 
-class RippleEnergySensor(Entity):
+class RippleEnergySensor(SensorEntity):
     def __init__(self, data):
         self._data = data
         self._state = None
 
     @property
     def name(self):
-        return self._data["[1].name"]
+        return self._data["generation_assets[*].name"]
 
     @property
     def state(self):
         return self._state
-
-    @property
-    def unit_of_measurement(self):
-        return self._data["[1].unit"]
 
     def update(self):
         self._state = self._data["value"]
