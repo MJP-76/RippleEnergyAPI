@@ -1,10 +1,10 @@
-import requests
+import config_flow
 
 def get_data(api_key):
     headers = {
         "Authorization": f"Bearer {api_key}"
     }
-    response = requests.get("https://rippleenergy.com/rest/member_data", headers=headers)
+    response = requests.get("https://rippleenergy.com/rest/member_data/", headers=headers)
     return response.json()
 
 from homeassistant.helpers.entity import Entity
@@ -26,7 +26,15 @@ class RippleEnergySensor(Entity):
 
     @property
     def name(self):
-        return self._data["email"]
+        return self._data["[1].name"]
+
+    @property
+    def state(self):
+        return self._state
+
+    @property
+    def unit_of_measurement(self):
+        return self._data["[1].unit"]
 
     def update(self):
         self._state = self._data["value"]
