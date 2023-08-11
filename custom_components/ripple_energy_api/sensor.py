@@ -1,4 +1,6 @@
+import requests
 import config_flow
+import json
 
 def get_data(api_key):
     headers = {
