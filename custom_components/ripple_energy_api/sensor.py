@@ -27,7 +27,7 @@ class RippleEnergySensor(Entity):
 
     @property
     def name(self):
-        return self._data["[1].name"]
+        return self._data[".name"]
 
     @property
     def state(self):
@@ -35,7 +35,7 @@ class RippleEnergySensor(Entity):
 
     @property
     def unit_of_measurement(self):
-        return self._data["[1].unit"]
+        return self._data[".unit"]
 
     def update(self):
         self._state = self._data["value"]
